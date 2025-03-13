@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int nums[] = {};
-    for (int i = 0; i < 3; i++) {
+    int nums[3];
+    for (int i = 1; i < 4; i++) {
         int n;
         printf("Digite um número: ");
         scanf("%d", &n);
         nums[i] = n;
-        printf("%d\n", nums[i]);
+        printf("vetor %d = %d\n", i, nums[i]);
     }
     int menor, intermediario, maior;
 
     return 0;
+} 
