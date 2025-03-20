@@ -1,7 +1,9 @@
+#Pede 3 números e guarda eles
 n1 = int(input("Digite um número: "))
 n2 = int(input("Digite outro número: "))
 n3 = int(input("Digite outro número: "))
 
+#Ordena os números em ordem crescente, depois mostra o menor, o intermediário e o maior respectivamente
 if n1 < n2 and n1 < n3:
     print(f"{n1} é o menor número")
     if n2 < n3:

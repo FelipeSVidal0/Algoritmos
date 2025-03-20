@@ -2,6 +2,7 @@
 
 int main(){
 
+    //Pede 3 números e guarda eles
     int n1, n2, n3;
     printf("Digite um número:");
     scanf("%d", &n1);
@@ -12,7 +13,7 @@ int main(){
     printf("Digite outro número:");
     scanf("%d", &n3);
 
-
+    //Ordena os números em ordem crescente, depois mostra o menor, o intermediário e o maior respectivamente
     if (n1 < n2 &&  n1 < n3)
     {
         if (n2 < n3) {
