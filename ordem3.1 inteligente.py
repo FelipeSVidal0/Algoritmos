@@ -13,7 +13,7 @@ moveu = False
 i = 0
 count = 0
 while sim:
-    
+
     if i+1 == len(lista):
         print(lista)
         i = 0
